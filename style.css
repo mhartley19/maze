@@ -1,0 +1,31 @@
+:root {display: border-box;
+}
+
+#board{
+    display:flex;
+    height: 300px;
+    width: 400px;
+    flex-direction: column;
+}
+
+.row{
+   
+    background-color: deepskyblue;
+    display: flex;
+    flex-grow: 1;
+    
+}
+
+.inner{
+    
+    background-color: dimgray;
+    flex-grow: 1;
+    display: flex;
+}
+
+.block{
+    background-color:red;
+    flex-grow:1;
+    display: flex;
+
+}
