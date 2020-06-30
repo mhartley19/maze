@@ -1,11 +1,40 @@
 :root {display: border-box;
 }
 
+#start{
+    height: 20px;
+    width: 19.05px;
+    position: absolute;
+    background-color: blue;
+    
+}
+
+
+
 #board{
     display:flex;
     height: 300px;
     width: 400px;
     flex-direction: column;
+   
+
+}
+
+
+
+.wall{
+    
+    background-color: dimgray;
+    flex-grow: 1;
+    display: flex;
+}
+
+.path{
+    background-color:red;
+    flex-grow:1;
+    display: flex;
+
+
 }
 
 .row{
@@ -16,16 +45,12 @@
     
 }
 
-.inner{
-    
-    background-color: dimgray;
-    flex-grow: 1;
-    display: flex;
-}
 
-.block{
-    background-color:red;
+#end{
     flex-grow:1;
-    display: flex;
-
+    display:flex;
+    background-color:blue;
 }
+
+
+
