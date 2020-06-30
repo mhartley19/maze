@@ -2,21 +2,31 @@
 }
 
 #start{
-    height: 20px;
-    width: 19.05px;
+    height: 40px;
+    width: 33.33px;
     position: absolute;
     background-color: blue;
     
 }
 
+#mainContent{
+    display: flex;
+    flex-grow: 2;
+}
 
+body{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
 
 #board{
     display:flex;
-    height: 300px;
-    width: 400px;
+    height: 600px;
+    width: 700px;
     flex-direction: column;
-   
+    
 
 }
 
@@ -52,5 +62,12 @@
     background-color:blue;
 }
 
+#winner{
+
+    height:200px;
+    width:200px;
+    font-size: large;
+    font-weight: 700;
+}
 
 
